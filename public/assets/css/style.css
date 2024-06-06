@@ -600,6 +600,22 @@ footer {
     padding-top: 20px;
     color: #fdf5ee;
 }
+
+/* Lianne's CSS */
+#lg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+#lgimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
 @media (min-width: 650px) {
     main {
         display: flex;
