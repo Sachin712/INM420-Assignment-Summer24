@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Passion+One&family=Rubik:ital,wght@0,400;0,700;0,900;1,400&family=Schoolbell&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
     background: #285d7e;
@@ -509,6 +510,118 @@ footer {
     border-radius: 50%;
 }
 
+.shanuthaPererea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  color: #333;
+  width: 30svw;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.shanuthaPererea img {
+  width: 20svw;
+  height: auto;
+  border-radius: 74% 26% 53% 47% / 30% 30% 70% 70%;
+  transition: all 0.5s ease-in-out;
+}
+
+.shanuthaPererea h1{
+    font-weight: 900;
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    color: #4d48d4;
+    text-shadow: #285d7e;
+    text-shadow: 2px 2px 4px #285d7e; 
+}
+
+.shanuthaPererea h1 span{
+    color: #d448cd;
+}
+
+.shanuthaPererea img:hover {
+    transform: rotate(360deg); 
+}
+
+/* Vimbai Chikoore */
+.vimbaiChikoore h1{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 60px;
+    color: #BA2D0B;
+}
+
+.vimbaiChikoore{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#vimbai{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Ramon Lianko */
+.mon h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 60px;
+    color: #e7324a;
+    padding-top: 5px;
+}
+
+.mon{
+    background: rgb(20, 20, 20);
+    
+}
+
+#ramon{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Felipe's CSS */
+.felipeCarbonari h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+
+#felipe {
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    margin: 20px;
+    border: 5px solid #2d8100;
+}
+
+/* inessa starts */
+.inessa{
+    background-color: #040208;
+    border-radius: 50px;
+}
+#inessa{
+    width: 300px;
+    height: 300px;
+}
+#inessaH1{
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    padding-top: 20px;
+    color: #fdf5ee;
+}
+
 
 @media (min-width: 650px) {
     main {
@@ -524,4 +637,145 @@ footer {
     main div {
         width: calc(33.3333% - 50px);
     }
+}
+
+@media (max-width: 768px) {
+  .shanuthaPererea {
+    width: 90%;
+  }
+
+  .shanuthaPererea img {
+    width: 50svw;
+  }
+}
+
+
+/* Musa Muhsini */
+.musaMuhsini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c5e8ff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+  }
+  
+  .musaMuhsini:hover {
+    background-color: #8cc7ff; 
+    transform: scale(1.02);
+  }
+
+  .musaMuhsini:hover #musaIMG {
+    transform: rotate(2deg);
+    transition: transform 0.3s
+  }
+  
+  #musaIMG {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px solid #75b6ff; 
+  }
+  
+  .musaMuhsini h1 {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 36px;
+    font-weight: 700; 
+    color: #333333; 
+    margin-bottom: 10px;
+  }
+  
+  .musaMuhsini p {
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1.5; 
+    color: #666666; 
+  }
+
+  /* Kalash's CSS */
+
+@font-face {
+    font-family: 'hannibal';
+    src: url(../EthernalBold_personal.ttf);
+}
+
+#kalash{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 30px;
+    border: 3px solid #990033;
+
+}
+
+#kalashname{
+    font-family: 'hannibal';
+    font-size: 40px;
+    font-weight: 500;
+    color: #990033;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#kalashimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    border: 3px solid #990033;
+    filter: blur(8px);
+    transition: all 0.4s;
+}
+
+#kalashimg:hover {
+    filter: blur(0px);
+}
+
+/* Shiva's Styling */
+
+#shiva {
+    width: 450px;
+    height: 550px;
+    background-color: #F8E3D2;
+    border-radius: 30px;
+}
+
+#shivah1{
+    font-size: 40px;
+    color: #C06135;
+    padding: 10px 0px;
+    font-family: 'bagatela';
+    font-weight: 700;
+}
+
+#shivaimg {
+    width: 400px;
+    height: 500px;
+    border: 3px solid #C06135;
+    border-radius: 30px;
+}
+
+/* Vandan's styling */
+
+#vandan {
+    width: 500px;
+    height: 350px;
+    background-color: black;
+    border-radius: 40px;
+}
+
+#vandanh1 {
+    font-family: 'playfair display';
+    font-size: 40px;
+    color: maroon;
+    padding-bottom: 10px;
+}
+
+#vandanimg {
+    height: 300PX;
+    width: 450px;
+    border-radius: 40px;
 }
